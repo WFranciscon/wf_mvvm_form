@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">WF Technologies</string>
+    <string name="msg_erro_nome">Nome obrigatório</string>
+    <string name="msg_erro_email">E-mail obrigatório</string>
+</resources>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="30dp"
+    tools:context=".act001.MainActivity">
+
+    <ImageView
+        android:id="@+id/act001_ivlogo"
+        android:layout_marginStart="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/wftech"
+        android:layout_marginTop="16dp" />
+
+    <EditText
+        android:id="@+id/act001_etname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:hint="Escreva seu nome"
+        android:inputType="text"
+        android:textSize="16sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nome"
+        android:textColor="@color/textBlack"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/act001_etemail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:hint="Escreva seu email"
+        android:inputType="textEmailAddress"
+        android:textSize="16sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="E-mail"
+        android:textColor="@color/textBlack"
+        android:textSize="16sp" />
+    <Button
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="30dp"
+        android:id="@+id/act001_btnvalidar"
+        android:layout_gravity="center_horizontal"
+        android:text="Entrar"
+        android:textSize="16sp"
+        android:textColor="@color/textWhite"
+        android:background="@drawable/button_rounded"
+        />
+
+</LinearLayout>
